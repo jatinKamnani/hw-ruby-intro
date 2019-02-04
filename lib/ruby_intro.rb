@@ -2,16 +2,14 @@
 
 # Part 1
 
-# def sum arr
-#   # YOUR CODE HERE
-# end
 def sum arr
-  # YOUR CODE HERE
   arr.inject(0, :+)
+  # the above command sums the elements of the array.
 end
 
 def max_2_sum elements
   sum(elements.sort.last(2))
+  #sort the elements in ascending order and take the last two elements
 end
 
 
@@ -32,16 +30,16 @@ end
 
 def hello(name)
     "Hello, " + name
-  # YOUR CODE HERE
 end
 
 def starts_with_consonant? s
   (s[0] =~ /[bcdfghjklmnprstvwxyz]+/i)
-  # YOUR CODE HERE
+  #checks the regular expression for first element in the string and returns true/fals
 end
 
 def binary_multiple_of_4? s
   s =~ /(^0|^[10]*00)$/    
+  #checks the regular expression for binary multiple of 4
 end
 # Part 3
 
